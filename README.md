@@ -1,2 +1,2 @@
 # Code Challenges Project
-Store useful codes to solve daily issues
+Useful codes to solve daily issues
