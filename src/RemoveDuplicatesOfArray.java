@@ -20,11 +20,9 @@ public class RemoveDuplicatesOfArray {
         Set<Integer> uniqueElements = new HashSet<>();
         List<Integer> resultList = new ArrayList<>();
 
-        for (int num : arr) {
-            if (uniqueElements.add(num)) {
+        for (int num : arr)
+            if (uniqueElements.add(num))
                 resultList.add(num);
-            }
-        }
 
         return resultList.stream().mapToInt(Integer::intValue).toArray();
     }
